@@ -48,4 +48,4 @@ Utility scripts:
 
 ## Model Performance
 
-The Branching Bi-LSTM model has been identified as the most effective for this task. Although the performance differences between models are minor with smaller datasets, the Branching Bi-LSTM model shows increasingly significant improvements in accuracy as the dataset size grows COMPARE TO OTHERS
+The Branching Bi-LSTM model has been identified as the most effective for this task. Although the performance differences between models are minor with smaller datasets, the Branching Bi-LSTM model shows increasingly significant improvements in accuracy compare to other models as the dataset size grows. 
