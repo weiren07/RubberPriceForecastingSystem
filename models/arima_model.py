@@ -17,7 +17,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error
 print("Loading dataset...")
 
 # Load the dataset
-data = pd.read_csv('modified_data.csv')
+data = pd.read_csv('data/preprocessed_data.csv')
 print("Dataset loaded successfully.")
 
 # Extract the 'SMR20' column

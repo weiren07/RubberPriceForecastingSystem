@@ -7,8 +7,8 @@ from scipy.stats import boxcox
 import os
 
 
-DATA_URL = 'data/sample.csv' 
-OUTPUT_CSV = 'data/transform_modified_data.csv'
+DATA_URL = 'data/raw_data.csv' 
+OUTPUT_CSV = 'data/transform_preprocessed_data.csv'
 NUMERIC_COLUMNS = ['usd/rm price', 'wti price', 'SMR20']
 CATEGORICAL_COLUMNS = []
 

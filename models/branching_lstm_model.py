@@ -7,7 +7,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 # Load the data
-data = pd.read_csv('data/modified_data.csv', parse_dates=['date'], index_col='date')
+data = pd.read_csv('data/preprocessed_data.csv', parse_dates=['date'], index_col='date')
 
 # Apply log transformation to specific column 'SMR20'
 data['SMR20'] = np.log(data['SMR20'])

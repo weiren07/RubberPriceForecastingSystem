@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Input, Bidirectional, LSTM, Dense, concatena
 import matplotlib.pyplot as plt
 from datetime import timedelta
 
-DATA_FILE = 'data/modified_data.csv'
+DATA_FILE = 'data/preprocessed_data.csv'
 PREDICTION_FILE = 'data/predictions.csv'
 LOG_TRANSFORM_COLUMN = 'SMR20'
 N_STEPS = 3

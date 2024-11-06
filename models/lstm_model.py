@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # Log message for data loading
 print("Loading the dataset...")
-data = pd.read_csv('data/modified_data.csv', parse_dates=['date'], index_col='date')
+data = pd.read_csv('data/preprocessed_data.csv', parse_dates=['date'], index_col='date')
 print("Dataset loaded successfully.")
 
 # Apply log transformation to specific column 'SMR20'
